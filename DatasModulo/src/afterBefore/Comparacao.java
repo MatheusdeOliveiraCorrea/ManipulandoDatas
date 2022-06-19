@@ -13,11 +13,11 @@ public class Comparacao {
 		Date dataVencimento = dateFormat.parse("30/08/2022");
 		Date dataAtual = dateFormat.parse("30/08/2022");
 
-		
-		//se a data de vencimento é posterior a data atual, se sim, 
+
+		//se a data de vencimento é posterior a data atual, se sim,
 		//então ainda não venceu
-		if (dataVencimento.after(dataAtual)) {  //métodos after() ou before() 
-			
+		if (dataVencimento.after(dataAtual)) {  //métodos after() ou before()
+
 			System.out.println("Nao vencido");
 
 		} else {
